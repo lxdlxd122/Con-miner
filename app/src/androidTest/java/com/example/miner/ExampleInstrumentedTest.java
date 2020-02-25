@@ -23,5 +23,7 @@ public class ExampleInstrumentedTest {
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
         assertEquals("com.example.miner", appContext.getPackageName());
+        assertEquals("com.example.miner", appContext.getPackageName());
+        assertEquals("com.example.miner", appContext.getPackageName());
     }
 }
