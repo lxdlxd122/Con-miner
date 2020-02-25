@@ -24,6 +24,6 @@ public class ExampleInstrumentedTest {
 
         assertEquals("com.example.miner", appContext.getPackageName());
         assertEquals("com.example.miner", appContext.getPackageName());
-
+        assertEquals("com.example.miner", appContext.getPackageName());
     }
 }
